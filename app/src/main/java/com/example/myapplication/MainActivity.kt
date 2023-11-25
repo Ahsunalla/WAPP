@@ -130,7 +130,6 @@ fun centeredPicture() {
                 .padding(16.dp),
             contentAlignment = Alignment.Center
         ) {
-            // Replace R.drawable.your_image with the actual image resource
             Image(
                 painter = painterResource(id = R.drawable.cloud),
                 contentDescription = "Centered Picture",
